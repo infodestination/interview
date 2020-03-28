@@ -57,7 +57,7 @@ int main() {
     g.addEdge(3, 5);
     g.addEdge(4, 7);
     g.addEdge(5, 6);
-    cout << "Following is a Topological Sort of the given graph n "<<endl;
+    cout << "Topological Sort of the given is "<<endl;
     g.topologicalSort(); 
     return 0;
 }
